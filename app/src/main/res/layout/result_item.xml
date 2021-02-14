@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:id="@+id/r_card">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/slNo"
+            android:text="1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="4"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginRight="50dp"
+            android:id="@+id/kills"/>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_cancel_black_24dp"
+
+            android:id="@+id/remove"/>
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/s1"
+            android:layout_toRightOf="@+id/slNo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subhadip Rudra"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginStart="60dp"
+            android:id="@+id/name"
+           />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
